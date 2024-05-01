@@ -39,6 +39,18 @@ const RemoveAfterTest = () => {
     }
 
     return (
+        <>
+
+        <div>
+        <div className="brick one"></div>
+        <div className="tooltip-mario-container">
+        <div className="box"></div>
+        <div className="mush"></div>
+        </div>
+        <div className="brick two"></div>
+        </div>
+
+
         <div>
             <form onSubmit={onSubmit}>
                 아디:<input type='text' value={id} onChange={(e)=>setId(e.target.value)}/><br/>
@@ -59,6 +71,7 @@ const RemoveAfterTest = () => {
                 }
             </ul>
         </div>
+        </>
     );
 };
 
