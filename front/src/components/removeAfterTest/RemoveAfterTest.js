@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios'
 
-import './RemoveAfterTestNav.css'
 
 const RemoveAfterTest = () => {
 
@@ -41,14 +40,6 @@ const RemoveAfterTest = () => {
     return (
         <>
 
-        <div>
-        <div className="brick one"></div>
-        <div className="tooltip-mario-container">
-        <div className="box"></div>
-        <div className="mush"></div>
-        </div>
-        <div className="brick two"></div>
-        </div>
 
 
         <div>
@@ -70,6 +61,23 @@ const RemoveAfterTest = () => {
                     ))
                 }
             </ul>
+
+
+            <form className="container" action="">
+            <div className="input-container">
+                <div className="input-content">
+                <div className="input-dist">
+                    <div className="input-type">
+                    <input className="input-is" type="text" required placeholder="User" />
+                    <input className="input-is" type="password" required placeholder="Password" />
+                    </div>
+                </div>
+                </div>
+            </div>
+            <button className="submit-button">Log in</button>
+            </form>
+
+
         </div>
         </>
     );

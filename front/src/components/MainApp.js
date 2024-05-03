@@ -4,9 +4,10 @@ import Navbar from './navibar/Navbar';
 
 
 
-import NavTest from './removeAfterTest/NavTest';
 import RemoveAfterTest from './removeAfterTest/RemoveAfterTest';
 import Home from './home/Home';
+import Login from './login/Login';
+import Join from './login/Join';
 
 
 
@@ -14,12 +15,13 @@ const MainApp = () => {
     return (
         <div>
            <Router>
-                {/* <Navbar/> */}
-                <NavTest/>
+                <Navbar/>
                 <Routes>
                     <Route path="/test" Component={RemoveAfterTest}/>
                     <Route path="/" Component={Home}/>
-
+                    <Route path="/node/login" Component={Login}/>
+                    <Route path="/node/join" Component={Join}/>
+                
 
                 </Routes>
            </Router>

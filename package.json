@@ -16,7 +16,10 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
-    "mongoose": "^6.2.10"
+    "express-session": "^1.18.0",
+    "mongoose": "^6.2.10",
+    "passport": "^0.7.0",
+    "passport-local": "^1.0.0"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
