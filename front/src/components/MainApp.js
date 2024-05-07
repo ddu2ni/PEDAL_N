@@ -8,6 +8,7 @@ import RemoveAfterTest from './removeAfterTest/RemoveAfterTest';
 import Home from './home/Home';
 import Login from './login/Login';
 import Join from './login/Join';
+import Chat from './chat/Chat';
 
 
 
@@ -21,8 +22,7 @@ const MainApp = () => {
                     <Route path="/" Component={Home}/>
                     <Route path="/node/login" Component={Login}/>
                     <Route path="/node/join" Component={Join}/>
-                
-
+                    <Route path="/chat" Component={Chat}/>
                 </Routes>
            </Router>
         </div>

@@ -1,6 +1,5 @@
 import React from 'react';
 import BoardItem from './BoardItem';
-import Friends from './Friends';
 
 import './home.css'
 
@@ -14,7 +13,6 @@ const Home = () => {
             <BoardItem />
             <BoardItem />
         </div>
-        <Friends className="side-box"/>
     </div>
     );
 };
