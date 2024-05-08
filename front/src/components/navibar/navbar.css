@@ -14,22 +14,22 @@
 }
 
 .logo-container img {
-  margin: 80px;
+  margin: 220px 70px 70px 70px;
   width: 270px;
   height: auto;
 }
 
 .navbar-list {
     list-style-type: none;
-    margin: 80px;
+    margin: 40px;
     font-weight: bold;
-    padding-left: 110px;
+    padding-left: 150px;
     font-size: 17px;
 }
 
 .navbar-item {
     margin-right: 20px;
-    margin-bottom:150px;
+    margin-bottom:100px;
     font-size: 20px;
 }
 
@@ -42,19 +42,34 @@
     text-decoration: underline;
 }
 
-.nav-footer img{
-  width: 40px;
+.nav-footer{
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+
 }
+
+.nav-footer a{
+  text-decoration: none;
+  color: #ff595e;
+  font-weight: bold;
+}
+
+.nav-footer li img{
+  width: 40px;
+  margin-left: 100px;
+}
+
 
 ul {
   list-style: none;
+  
 }
 
 .example-2 {
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: column;
 }
 .example-2 .icon-content {
   margin: 0 10px;

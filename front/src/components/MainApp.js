@@ -3,11 +3,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './navibar/Navbar';
 
 
-
-import RemoveAfterTest from './removeAfterTest/RemoveAfterTest';
-import Home from './home/Home';
-import Login from './login/Login';
-import Join from './login/Join';
 import Chat from './chat/Chat';
 
 
@@ -18,11 +13,7 @@ const MainApp = () => {
            <Router>
                 <Navbar/>
                 <Routes>
-                    <Route path="/test" Component={RemoveAfterTest}/>
-                    <Route path="/" Component={Home}/>
-                    <Route path="/node/login" Component={Login}/>
-                    <Route path="/node/join" Component={Join}/>
-                    <Route path="/chat" Component={Chat}/>
+                    <Route path="/" Component={Chat}/>
                 </Routes>
            </Router>
         </div>
