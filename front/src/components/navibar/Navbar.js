@@ -1,7 +1,6 @@
 import React from 'react';
 import './navbar.css'
 import { PiMessengerLogoLight } from "react-icons/pi";
-import { FaPencilAlt } from "react-icons/fa";
 import { LiaHomeSolid } from "react-icons/lia";
 
 
